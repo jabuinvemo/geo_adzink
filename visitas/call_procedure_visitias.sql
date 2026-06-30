@@ -1,0 +1,11 @@
+CALL `mo-advertising-sta.ADVERTISING_ANALISIS_ADHOC.estimacion_visitas_con_tiles` 
+(
+'LIDL_MEJORA_TRAFICO',
+['TIENDAS_LIDL'],
+DATE_SUB('2026-06-28',INTERVAL 15 DAY),
+'2026-06-28',
+[9,10,11,12,13,14,15,16,17,18,19,20,21],
+10,
+60,
+75
+)
